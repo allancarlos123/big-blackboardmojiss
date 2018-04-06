@@ -1,0 +1,70 @@
+body {
+  background: #2d3436;
+  background: #18191c;
+  font-family: monospace;
+  white-space: pre-line;
+  line-height: 1.8em;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+}
+
+.App { padding: 0 25%; }
+
+.App h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.Textarea {
+  /* width: 100%; */
+  width: 91%;
+  height: 300px;
+  background: #1B1C1F;
+  border-radius: 6px;
+  padding: 20px 30px;
+  margin-top: 5%;
+  border: 2px solid #1B1C1F;
+  font-size: 2rem;
+  color: #FAA61A;
+  outline: 0;
+}
+
+/* Change placeholder color */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 2rem;
+  color: rgb(63, 63, 63);
+  opacity: 1; /* Firefox */
+  text-align: center;
+  padding: 80px 0;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 2rem;
+  color: rgb(63, 63, 63);
+  opacity: 1; /* Firefox */
+  text-align: center;
+  padding: 80px 0;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-size: 2rem;
+  color: rgb(63, 63, 63);
+  opacity: 1; /* Firefox */
+  text-align: center;
+  padding: 80px 0;
+}
+
+.Result {
+  white-space: pre-line;
+  font-size: .9rem;
+  border: 1px dashed #40434a;
+  padding: 5px 10px;
+  color: #FAA61A;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .App { padding: 0 5%; }
+
+  .Textarea {
+    width: 82%;
+  }
+}
