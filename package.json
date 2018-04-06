@@ -5,6 +5,7 @@
   "dependencies": {
     "moji-translate": "^1.0.8",
     "react": "^16.3.1",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
   },
